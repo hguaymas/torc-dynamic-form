@@ -1,46 +1,52 @@
 # Dynamic Form React App
 
-Esta es una aplicación de formulario dinámico construida con React, TypeScript y estilos responsivos para una experiencia de usuario óptima en una variedad de dispositivos.
+This is a dynamic form application built with React, TypeScript, and responsive styles for an optimal user experience on a variety of devices.
 
-## Funcionalidades
+## Features
 
-- Crea formularios dinámicos basados en una configuración proporcionada.
-- Admite varios tipos de campos, como texto, número y select.
-- Captura y muestra los datos enviados por el usuario.
-- Diseño responsivo con consultas de medios para adaptarse a dispositivos móviles y pantallas más grandes.
+- Create dynamic forms based on provided configuration.
+- Support various field types, such as text, number, and select.
+- Capture and display user-submitted data.
+- Responsive design with media queries to adapt to mobile devices and larger screens.
 
-## Cómo usar
+## How to Use
 
-1. Clona este repositorio en tu máquina local:
+1. Clone this repository to your local machine:
 
-`git clone https://github.com/tu-usuario/dynamic-form-react.git`
+`git clone https://github.com/hguaymas/dynamic-form-react.git`
 
-2. Navega al directorio del proyecto:
+2. Navigate to the project directory:
 
 `cd dynamic-form-react`
 
-3. Instala las dependencias:
+3. Install dependencies:
 
 `npm install`
 
-4. Ejecuta la aplicación:
+4. Run the application:
 
 `npm start`
 
-La aplicación se abrirá en tu navegador predeterminado. Puedes editar el archivo `src/App.tsx` para personalizar la configuración del formulario.
+The application will open in your default web browser. You can edit the `src/App.tsx` file to customize the form configuration.
 
-## Configuración del formulario
+## Form Configuration
 
-La configuración del formulario se define en el archivo `src/App.tsx`. Puedes modificar el arreglo `fields` para definir los campos de tu formulario.
+The form configuration is defined in the `src/App.tsx` file. You can modify the `fields` array to define the fields for your form.
 
 ```tsx
 const fields: FormField[] = [
-{ type: 'text', label: 'Nombre' },
-{ type: 'number', label: 'Edad' },
-{ type: 'select', label: 'Género', options: ['Masculino', 'Femenino', 'Otro'] },
+  { type: 'text', label: 'Name' },
+  { type: 'number', label: 'Age' },
+  { type: 'select', label: 'Gender', options: ['Male', 'Female', 'Other'] },
 ];
-
 ```
-## Personalización de estilos
 
-Los estilos de la aplicación se encuentran en el archivo `src/App.css`. Puedes personalizar los estilos según tus preferencias.
+## Styling Customization
+
+The application's styles are located in the `src/App.css` file. You can customize the styles according to your preferences.
+
+## Contribution
+If you would like to contribute to this project, we welcome contributions! Feel free to open issues or send pull requests with improvements.
+
+## License
+This project is licensed under the **MIT License**.
