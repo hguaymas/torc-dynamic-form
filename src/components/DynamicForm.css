@@ -1,0 +1,110 @@
+.root-container {
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+fieldset {
+  max-width: 100%;
+  width: 50%;
+  order: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.field-container {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  color: #263a6e;
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+input,
+select {
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+  padding: 9px 10px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #33475b;
+  background-color: #f5f8fa;
+  border: 1px solid #cbd6e2;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-clip: padding-box;
+  margin: 8px 0;
+}
+
+.button-container {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  padding: 17px 0;
+}
+
+.button {
+  background: #f89f2b;
+  border: 1px solid #f89f2b;
+  border-radius: 15px;
+  padding: 12px 24px;
+  color: #ffffff;
+  font-size: 14px; /* Aumentamos ligeramente el tamaño de fuente para dispositivos móviles */
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.field-result-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 16px;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+.field-label {
+  font-weight: 700;
+  padding: 0 8px;
+}
+
+.field-value {
+  color: #263a6e;
+}
+
+@media screen and (max-width: 768px) {
+  fieldset {
+    width: 100%;
+  }
+
+  .field-container {
+    margin: 16px 0;
+  }
+
+  .button-container {
+    width: 100%;
+  }
+}
