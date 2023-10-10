@@ -70,7 +70,7 @@ select {
   border-radius: 15px;
   padding: 12px 24px;
   color: #ffffff;
-  font-size: 14px; /* Aumentamos ligeramente el tamaño de fuente para dispositivos móviles */
+  font-size: 14px;
   font-weight: 700;
   cursor: pointer;
   display: inline-block;
